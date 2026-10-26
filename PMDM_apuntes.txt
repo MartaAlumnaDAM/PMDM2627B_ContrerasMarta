@@ -1,0 +1,26 @@
+De las clases estáticas no se pueden crear objetos.
+
+Para llamarlas hay que usar el nombre de la clase:
+
+Console.log
+
+En kotlin las clases estáticas se inician con:
+
+	object TablaDentada
+	
+Los eventos se pondrán en interfaces selladas
+
+sealed class 
+
+Mirar ejemplo KotlinSum Type
+	
+	clase estàtica se inicia con object
+	'_' se usa como default (cero)
+	
+Configurar plantilla de proyectos	
+	
+	com.pmdm.proyecto -> cambiar con rename
+Gradle
+
+Manifests / AndroidManifest.xml
+android:label="@string/app_name"  --> Ctrl + doble click
